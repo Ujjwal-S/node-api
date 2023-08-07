@@ -5,17 +5,17 @@
 ## Table of Contents
 
 
-- [Frameworks.](#frameworks)
+- [🏗️ Frameworks](#frameworks)
   - [Express.js](#expressjs)
   - [ORM - Sequelize](#orm---sequelize)
   - [Database - Postgres](#database---postgres)
-- [Database Schema.](#database-schema)
+- [📊 Database Schema](#database-schema)
   - [User](#user)
   - [Datastore](#datastore)
-- [Getting API Up and Running.](#getting-api-up-and-running)
+- [🚀 Getting API Up and Running](#getting-api-up-and-running)
 
 
-## 🏗️ Frameworks
+## Frameworks
 
 ###  Express.js
 
@@ -28,7 +28,7 @@
 
 * I selected PostgreSQL as the preferred database mainly because Sequelize offers robust support for it, coupled with a wealth of extensive resources online.
 
-## 📊 Database Schema
+## Database Schema
 
 The Database consists of 2 tables, each with its own description. To provide additional clarity, <b>it was my assumption that the key-value pairs should be intricately tied to individual users</b>, owing to the requirement of passing a token within the query. So, user1 and user2 can have the same key names,  but each of them is restricted to holding a maximum of one key individually.
 
